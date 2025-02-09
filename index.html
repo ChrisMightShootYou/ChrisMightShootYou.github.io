@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <style>
+        .sigma{
+            width: 90%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+        }
+    </style>
+</head>
 <body>
     <h1><b>hamptor</b></h1>
     <p>I'm hosted with <b>HAMPTOR.</b> </p>
     <button type="button" onclick="playAudio('squib.mp3')">click for robux</button>
+    <br>
+    <img src="john.png" class="sigma" />
 </body>
 </html>
 
@@ -11,4 +24,5 @@
     function playAudio(url) {
         new Audio(url).play();
     }
+
 </script>
